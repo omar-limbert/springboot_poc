@@ -11,7 +11,11 @@ public class User {
     private String age;
     private String gender;
 
-    public User(String name, String age, String gender){
+    public User() {
+    }
+
+    public User(String name, String age, String gender) {
+        super();
         this.name = name;
         this.age = age;
         this.gender = gender;
